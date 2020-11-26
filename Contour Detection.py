@@ -150,7 +150,4 @@ cv.imshow("Adaptive Threshold", thresh4)
 contours6, hierarchies6 = cv.findContours(thresh4, cv.RETR_LIST, cv.CHAIN_APPROX_SIMPLE)
 print(f'{len(contours6)} contour(s) found after dynamically thresholding the b&w image')
 
-
-# OK, now for
-
 cv.waitKey(0)
