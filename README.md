@@ -14,7 +14,7 @@ To learn and OpenCV and teach alongside, giving a beginner's perspective to both
 
 ## Bibliography
 - [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o) By [Jason Dsouza](https://www.youtube.com/jasmcaus)
-- stackoverflow
+- [stackoverflow](https://stackoverflow.com/)
 - [PlantCV](plantcv.readthedocs.io)
 - [GeeksforGeeks](www.geeksforgeeks.org)
 - [OpenCV manual](http://man.hubwiz.com/manual/OpenCV)
