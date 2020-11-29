@@ -1,7 +1,7 @@
 # OpenCV_tutorial
 
 ## Motivation
-To learn and OpenCV and teach alongside, giving a beginner's perspective to both teaching and learning. 
+To learn and execute OpenCV and teach alongside, giving a beginner's perspective to both teaching and learning. 
 
 ## Order of Reading
 1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
