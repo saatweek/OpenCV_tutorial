@@ -11,6 +11,7 @@ To learn and OpenCV and teach alongside, giving a beginner's perspective to both
 5. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
 
 ![edges](https://github.com/saatweek/OpenCV_tutorial/blob/main/edges.png)
+
 6. Colour Spaces
 
 ![Image Conversation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Conversions.png)
