@@ -12,7 +12,7 @@ To learn and OpenCV and teach alongside, giving a beginner's perspective to both
 
 ![edges](https://github.com/saatweek/OpenCV_tutorial/blob/main/edges.png)
 
-6. Colour Spaces
+6. [Colour Spaces](https://github.com/saatweek/OpenCV_tutorial/blob/main/Color%20Spaces.py)
 
 ![Image Conversation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Conversions.png)
 ![BGR Intensities](https://github.com/saatweek/OpenCV_tutorial/blob/main/bgr%20intensities.png)
