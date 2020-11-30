@@ -10,13 +10,13 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 4. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
 5. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
 
-![edges](https://github.com/saatweek/OpenCV_tutorial/blob/main/edges.png)
+![edges](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/edges.png)
 
 6. [Colour Spaces](https://github.com/saatweek/OpenCV_tutorial/blob/main/Color%20Spaces.py)
 
-![Image Conversation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Conversions.png)
-![BGR Intensities](https://github.com/saatweek/OpenCV_tutorial/blob/main/bgr%20intensities.png)
-![BGR Images](https://github.com/saatweek/OpenCV_tutorial/blob/main/bgr%20components.png)
+![Image Conversion](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Image%20Conversions.png)
+![BGR Intensities](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/bgr%20intensities.png)
+![BGR Images](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/bgr%20components.png)
 
 ## Bibliography
 - [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o) By [Jason Dsouza](https://www.youtube.com/jasmcaus)
