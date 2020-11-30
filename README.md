@@ -26,6 +26,3 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 - [OpenCV manual](http://man.hubwiz.com/manual/OpenCV)
 - [OpenCV Documentation](docs.opencv.org)
 - [The Verge](https://www.theverge.com/pages/wallpapers)
-
-
-![Trying out if a video plays or not](https://github.com/saatweek/OpenCV_tutorial/blob/main/sample_video.mp4)
