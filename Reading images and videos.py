@@ -1,43 +1,79 @@
-import cv2 as cv # importing OpenCV
+import cv2 as cv  # importing OpenCV
 
-img1 = cv.imread('image.jpg') # takes in the path of the image and
-                              # returns a numpy array with all the pixel values
+img1 = cv.imread('image.jpg')  # takes in the path of the image and
+                               # returns a numpy array with all the pixel values
 
-cv.imshow("Sample Image", img1) # Takes in "The name of the Window" and the array
-                                # values and displays it in a new window
+cv.imshow("Sample Image", img1)  # Takes in "The name of the Window" and the array
+                                 # values and displays it in a new window
 
-cv.waitKey(0) # if the value is 0, then it waits for a key to be pressed,
-              # if the value is, say, 1, then it'll wait for 1ms for a key to be
-              # pressed(before closing the instance)
+cv.waitKey(0)  # if the value is 0, then it waits for a key to be pressed,
+               # if the value is anything other than 0, say, 12, then it'll wait for 12ms for
+               # a key to be pressed (before closing the instance)
+               # It returns the code of the pressed key or
+               # -1 if no key was pressed before the specified time had elapsed.
 
-cv.destroyAllWindows() # to...well....destroy all windows...? duh
+cv.destroyAllWindows()  # to close all windows
 
 img2 = cv.imread('large_image.png')
-cv.imshow("Large Image", img2)
+cv.imshow("Large Image", img2)  # You'll notice if you're trying to show a big image, it'll
+                                # often get too large and some part of it would get cut out
+                                # Don't worry though, we'll solve this issue in the next program
 cv.waitKey(0)
 cv.destroyAllWindows()
 
-capture = cv.VideoCapture('sample_video.mp4') # We introduce a capture variable here and use the
-                                              # function Video Capture. This function can take, either
-                                              # integers (0, 1, 2..) where 0 is your webcam, 1 is
-                                              # your 1st camera, 2 is your 2nd camera and so on... OR,
-                                              # it can take the path of your video file
+# VIDEO CAPTURE
 
-# Now we'll basically have to read the video frame-by-frame, and so this is how we do it
+# To capture a video, we'll use VideoCapture(), that either takes in an integer (like 0, 1, 2,..) or
+# the path of the video file. The integers (0, 1, 2, etc) denote the cameras attached to your
+# system, so 0 would be the webcam, 1 would be the first camera connected to your system
+# 2 would represent the second camera connected to your system and so on...
+# We'll basically have to read the video frame-by-frame, and so this is how we do it
+# But, in the emd, don't forget to release the Capture
 
+
+# Video Capture from the Laptop Webcam
+capture = cv.VideoCapture(0)
+if not capture.isOpened():  # .isOpened() returns true if video capturing has been initialized already
+    print("Cannot open camera")
+    exit()
 while True:
-    isTrue, frame = capture.read() # capture.read returns two variables, a frame and a boolean
-                                   # that tells wheather the frame was successfully read or not
+    # Capture frame-by-frame
+    ret, frame = capture.read()  # .read() grabs, decodes and returns the next video frame.
+                                 # if frame is read correctly ret is True
 
-    cv.imshow("Video", frame)  # displaying the frame in a window
+    cv.imshow('Webcam Feed', frame)  # Display the resulting frame
 
-    if cv.waitKey(20) & 0xFF == ord('f'): # and then waitKey(20) means that it'll wait for
-                                          # 20ms before showing another frame and the 0xFF == ord('f')
-                                          # will close the window whenever the f key is pressed
+    # quick reminder, In cv.waitKey(t), if a key is pressed before the particular time t has
+    # elapsed, then cv.waitKey() returns the 32-bit integer corresponding to the pressed key
+    # AND
+    # ord('q') returns Unicode code point of q
+
+    # If q is pressed before the video ends
+    if cv.waitKey(1) == ord('q'):  # When the pressed key is q (i.e., when the return value of
+                                                                    # waitKey() is equal to the value of q)
         break
 
-capture.release() # release the capture device
-cv.destroyAllWindows() # destroy all windows
+    # When the video ends
+    if not ret:  # When the video ends and it can't find any more frames to show, ret will return False
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+
+# When everything done, release the capture
+capture.release()  # .release() closes video file or capturing device
+cv.destroyAllWindows()
+
+# PLAYING A VIDEO FILE
+cap = cv.VideoCapture('sample_video.mp4')
+while cap.isOpened():
+    ret, frame = cap.read()
+    if not ret:
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+    cv.imshow('frame', frame)
+    if cv.waitKey(1) == ord('q'):
+        break
+cap.release()
+cv.destroyAllWindows()
 
 # -215:Assertion failed means that OpenCV could not find a media file at that particular location
 # The reason this happened here is because the video ran out of frames. OpenCV couldn't find any frame
