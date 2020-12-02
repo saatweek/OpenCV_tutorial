@@ -50,7 +50,7 @@ while True:
 
     # If q is pressed before the video ends
     if cv.waitKey(1) == ord('q'):  # When the pressed key is q (i.e., when the return value of
-                                                                    # waitKey() is equal to the value of q)
+                                                              # waitKey() is equal to the value of q)
         break
 
     # When the video ends
