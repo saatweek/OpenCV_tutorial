@@ -8,7 +8,7 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 
 ![sample_image1](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/pic1_output.png)
 ![output of Large Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/large_image_output.png)
-![Picture from Live Feed](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Live_feed.png)
+![Picture from Live Feed](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/ezgif.com-gif-maker.gif)
 ![Sample Video](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/sample_video.gif)
 <br>
 
