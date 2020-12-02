@@ -5,6 +5,13 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 
 ## Order of Reading
 1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
+
+![sample_image1](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/pic1_output.png)
+![output of Large Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/large_image_output.png)
+![Picture from Live Feed](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Live_feed.png)
+![Sample Video](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/sample_video.gif)
+
+
 2. [Resizing and Rescaling](https://github.com/saatweek/OpenCV_tutorial/blob/main/Resizing%20and%20Rescaling.py)
 3. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/basic%20functions.py)
 4. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
