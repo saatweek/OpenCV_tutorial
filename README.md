@@ -10,7 +10,7 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 ![output of Large Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/large_image_output.png)
 ![Picture from Live Feed](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Live_feed.png)
 ![Sample Video](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/sample_video.gif)
-
+<br>
 
 2. [Resizing and Rescaling](https://github.com/saatweek/OpenCV_tutorial/blob/main/Resizing%20and%20Rescaling.py)
 3. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/basic%20functions.py)
