@@ -50,7 +50,7 @@ while True:
 
     # If q is pressed before the video ends
     if cv.waitKey(1) == ord('q'):  # When the pressed key is q (i.e., when the return value of
-                                                                    # waitKey() is equal to the value of q)
+                                                              # waitKey() is equal to the value of q)
         break
 
     # When the video ends
@@ -63,6 +63,10 @@ capture.release()  # .release() closes video file or capturing device
 cv.destroyAllWindows()
 
 # PLAYING A VIDEO FILE
+# Also while displaying the frame of a video file, use appropriate time for cv.waitKey(). If it is too less, 
+# video will be very fast and if it is too high, video will be slow (Well, that is how you can display videos in slow motion). 
+# 25 milliseconds will be OK in normal cases.
+
 cap = cv.VideoCapture('sample_video.mp4')
 while cap.isOpened():
     ret, frame = cap.read()
@@ -70,7 +74,7 @@ while cap.isOpened():
         print("Can't receive frame (stream end?). Exiting ...")
         break
     cv.imshow('frame', frame)
-    if cv.waitKey(1) == ord('q'):
+    if cv.waitKey(24) == ord('q'):
         break
 cap.release()
 cv.destroyAllWindows()
