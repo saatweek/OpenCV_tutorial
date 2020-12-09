@@ -13,6 +13,10 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 <br>
 
 2. [Resizing and Rescaling](https://github.com/saatweek/OpenCV_tutorial/blob/main/Resizing%20and%20Rescaling.py)
+
+![Resized Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/resized%20Image.png)
+
+
 3. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/basic%20functions.py)
 4. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
 5. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
