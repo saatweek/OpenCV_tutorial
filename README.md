@@ -5,6 +5,15 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 
 ## Order of Reading
 1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
+2. [Resizing and Rescaling](https://github.com/saatweek/OpenCV_tutorial/blob/main/Resizing%20and%20Rescaling.py)
+3. [Drawing shapes and putting texts](https://github.com/saatweek/OpenCV_tutorial/blob/main/Drawing%20shapes.py)
+4. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/Essential%20functions.py)
+5. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
+6. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
+7. [Colour Spaces](https://github.com/saatweek/OpenCV_tutorial/blob/main/Color%20Spaces.py)
+
+## Output Images
+1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
 ![sample_image1](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/pic1_output.png)
 ![output of Large Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/large_image_output.png)
 ![Picture from Live Feed](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/ezgif.com-gif-maker.gif)
@@ -20,7 +29,11 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 ![drawing shapes and putting text](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/shapes%20and%20text.png)
 
 
-4. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/basic%20functions.py)
+4. [Essential Functions](https://github.com/saatweek/OpenCV_tutorial/blob/main/Essential%20functions.py)
+
+![Essential function](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/essential%20functions%20output.png)
+
+
 5. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
 6. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
 
