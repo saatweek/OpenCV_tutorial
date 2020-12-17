@@ -135,9 +135,10 @@ contours5, hierarchies5 = cv.findContours(thresh3, cv.RETR_LIST, cv.CHAIN_APPROX
 print(f'{len(contours5)} contour(s) found after Otsu thresholding the blurred b&w image')
 
 # Trying Out Adaptive Thresholding
-# In this, the algorithm calculate the threshold for a small regions of the image.
+# In this, the algorithm calculate the threshold for a small regions of the image (determined by the block size).
 # So we get different thresholds for different regions of the same image and it gives us
 # better results for images with varying illumination.
+# For OCR (Optical Character Recognition) it is useful to eliminate the background that is not homogeneous in nature
 thresh4 = cv.adaptiveThreshold(gray, 255,
                                cv.ADAPTIVE_THRESH_GAUSSIAN_C,  # Threshold value is the
                                                                # weighted sum of neighbourhood values
@@ -145,7 +146,13 @@ thresh4 = cv.adaptiveThreshold(gray, 255,
                                                                # There's also cv2.ADAPTIVE_THRESH_MEAN_C
                                                                # where threshold value is the mean of
                                                                # neighbourhood area.
-                               cv.THRESH_BINARY, 11, 2)
+                               cv.THRESH_BINARY, # Type of threshold we want
+                                                 # There's also cv.THRESH_BINARY_INV which just inverts
+                                                 # the results (the black would be white and vice-versa)
+                               11, # here, we are working with a block size of 11 pixels
+                                   # in general, the bigger the block size, the more noise we'll have, but the feaures would be more clear 
+                               2) # here, 2 is the constant value that gets removed from the threshold value
+                                  # the smaller this number, the more noise we have, but with a number too big, it can also remove certain features
 cv.imshow("Adaptive Threshold", thresh4)
 contours6, hierarchies6 = cv.findContours(thresh4, cv.RETR_LIST, cv.CHAIN_APPROX_SIMPLE)
 print(f'{len(contours6)} contour(s) found after dynamically thresholding the b&w image')
