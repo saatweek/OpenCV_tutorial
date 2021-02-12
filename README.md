@@ -11,6 +11,7 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 5. [Image Transformation](https://github.com/saatweek/OpenCV_tutorial/blob/main/Image%20Transformation.py)
 6. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
 7. [Colour Spaces](https://github.com/saatweek/OpenCV_tutorial/blob/main/Color%20Spaces.py)
+8. [Face Detection Using Haar Cascades](https://github.com/saatweek/OpenCV_tutorial/blob/main/Face%20Detection%20Using%20Haar%20Cascades.py)
 
 ## Output Images
 1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
@@ -48,6 +49,12 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 ![BGR Intensities](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/bgr%20intensities.png)
 ![BGR Images](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/bgr%20components.png)
 
+8. [Face Detection Using Haar Cascades](https://github.com/saatweek/OpenCV_tutorial/blob/main/Face%20Detection%20Using%20Haar%20Cascades.py)
+
+![Selfie Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Selfie.png)
+![Group Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Group%20Image.png)
+![Face Detection on Video](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Video%20Capture%202021-02-12%2022-50-47.gif)
+
 
 ## Bibliography
 - [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o) By [Jason Dsouza](https://www.youtube.com/jasmcaus)
@@ -57,3 +64,4 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 - [OpenCV manual](http://man.hubwiz.com/manual/OpenCV)
 - [OpenCV Documentation](docs.opencv.org)
 - [The Verge](https://www.theverge.com/pages/wallpapers)
+- [Link to Download different Haar Cascades](https://github.com/opencv/opencv/tree/master/data/haarcascades)
