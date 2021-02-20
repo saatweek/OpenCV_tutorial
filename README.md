@@ -69,3 +69,5 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 - [OpenCV Documentation](docs.opencv.org)
 - [The Verge](https://www.theverge.com/pages/wallpapers)
 - [Link to Download different Haar Cascades](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+- [Original MTCNN Project](https://github.com/ipazc/mtcnn)
+- [Also a very helpful tutorial on MTCNN implementation](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
