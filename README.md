@@ -12,6 +12,7 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 6. [Contour Detection](https://github.com/saatweek/OpenCV_tutorial/blob/main/Contour%20Detection.py)
 7. [Colour Spaces](https://github.com/saatweek/OpenCV_tutorial/blob/main/Color%20Spaces.py)
 8. [Face Detection Using Haar Cascades](https://github.com/saatweek/OpenCV_tutorial/blob/main/Face%20Detection%20Using%20Haar%20Cascades.py)
+9. [Face Detection Using MTCNN](https://github.com/saatweek/OpenCV_tutorial/blob/main/Face%20Detection%20Using%20MTCNN.py) (Additional Content)
 
 ## Output Images
 1. [Reading Images and Videos](https://github.com/saatweek/OpenCV_tutorial/blob/main/Reading%20images%20and%20videos.py)
@@ -55,6 +56,9 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 ![Group Image](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Group%20Image.png)
 ![Face Detection on Video](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/Video%20Capture%202021-02-12%2022-50-47.gif)
 
+9. [Face Detection Using MTCNN](https://github.com/saatweek/OpenCV_tutorial/blob/main/Face%20Detection%20Using%20MTCNN.py) (Additional Content)
+
+![MTCNN output](https://github.com/saatweek/OpenCV_tutorial/blob/main/Output%20Images/mtcnn.png)
 
 ## Bibliography
 - [OpenCV Course - Full Tutorial with Python](https://youtu.be/oXlwWbU8l2o) By [Jason Dsouza](https://www.youtube.com/jasmcaus)
@@ -65,3 +69,5 @@ To learn and execute OpenCV and teach alongside, giving a beginner's perspective
 - [OpenCV Documentation](docs.opencv.org)
 - [The Verge](https://www.theverge.com/pages/wallpapers)
 - [Link to Download different Haar Cascades](https://github.com/opencv/opencv/tree/master/data/haarcascades)
+- [Original MTCNN Project](https://github.com/ipazc/mtcnn)
+- [Also a very helpful tutorial on MTCNN implementation](https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/)
