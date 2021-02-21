@@ -56,5 +56,22 @@ cv.imshow('Detected Faces', img_resized)
 cv.waitKey(0)
 cv.destroyAllWindows()
 
+# Let us now try and identify people from a live video feed
+capture = cv.VideoCapture(0)
+while capture.isOpened():
+    isTrue, frame = capture.read()
 
+    if not isTrue:
+        print("Can't receive frame (stream end..?). Exiting")
+        break
+    faces = detector.detect_faces(frame)
+    for face in faces:
+        bounding_box = face['box']
+        cv.rectangle(frame, (bounding_box[0], bounding_box[1]), (bounding_box[0]+bounding_box[2], bounding_box[1]+bounding_box[3]), (255, 0, 0), thickness=1)
+    cv.imshow("Video Capture", frame)
 
+    if cv.waitKey(1) == ord('q'):
+        break
+
+capture.release()
+cv.destroyAllWindows()
